@@ -1,0 +1,168 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding: 0px 15px;
+  background-color: #192a60;
+  border-radius: 0px;
+  border-color: #192a60;  
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+
+}
+
+@media (min-width: 768px) {
+  .container-sm-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-sm-height {
+    display: table-row;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+  }
+}
+@media (min-width: 992px) {
+  .container-md-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-md-height {
+    display: table-row;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+  }
+}
+
+footer {
+  background-color: #192a60;
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+aside {
+  background-color: #f7f7f7;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 40px;  
+}
+
+
+div.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.team-list {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.team-list h4 {
+  margin-bottom: 40px;
+  color: darkorange;
+  font-weight: bold;
+}
+
+.team-list img {
+  width: 100%;
+  height: 100%;
+  max-width: 120px;
+  max-height: 80px;
+  border: 4px solid darkorange;
+}
+
+.team-title {
+  color: darkblue;
+}
+
+.sports-icon-list {
+  background-color: #192a60; 
+  padding-bottom: 40px;
+}
+
+.sports-icon-list a {
+  color: white;
+}
+
+.sports-icon-list a h6{
+  margin-top: 2px;
+  margin-bottom: 14px;
+}
+
+.sports-icon-list table {
+  font-size: 10px;
+  background-color: lightgray;
+}
+table caption {
+  text-align: center;
+}
+.sports-icon-list th {
+  font-size: 12px;
+  font-weight: 900;
+  text-align: center;
+}
+
+article {
+  padding: 40px;
+}
+article img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-shadow: 6px 6px 8px #777;
+  margin-bottom: 20px;
+}
+article p {
+  font-size: 16px;
+}
+
+.badge {
+  font-size: 10px;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-danger {
+  background-color: #b94a48;
+}
+.badge-danger:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+
+.sports-icon-list img {
+  max-width: 80px;
+  max-height: 100px;
+}
+
+.sports-icon-list img:hover {
+  border: 2px solid #ccc;
+  box-shadow: 6px 6px 8px #777;
+}
+
+
+
+
+
+
+
+
